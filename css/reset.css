@@ -43,6 +43,4 @@ table {
 }
 input:focus{
     outline: none;
-    border-color: rgb(60,30,30);
-    border-width: 2px;
 }
