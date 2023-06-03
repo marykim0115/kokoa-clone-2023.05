@@ -1,3 +1,4 @@
+
 .nav{
     background-color: rgba(206,206,206,0.3);
     position: fixed;
@@ -10,4 +11,30 @@
 .nav__list{
     display: flex;
     justify-content: space-around;
+}
+.nav__link{
+    color:#2f363e;
+    position: relative;   
+}
+.nav__notification{
+    background-color: tomato;
+    border-radius: 50%;
+    color:white;
+    display: flex;
+    width: 20px;
+    height:20px;
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.nav__ellipsis{
+    background-color: tomato;
+    border-radius: 50%;
+    width: 5px;
+    height:5px;
+    position: absolute;
+    left: 25px;
+    bottom: 18px;
 }
