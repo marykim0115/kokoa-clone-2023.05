@@ -6,7 +6,7 @@
     width: 100%;
     padding: 20px 0px;
     box-sizing: border-box;
-    border-top: 1.5px solid var(--lightgrey);
+    border-top: 1.5px solid var(--grey);
 }
 .nav__list{
     display: flex;

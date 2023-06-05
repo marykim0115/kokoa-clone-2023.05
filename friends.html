@@ -30,14 +30,66 @@
     </div>
 
     <!--프랜즈 헤더-->
-    <header class="friends-header">
-      <h1 class="friends-header__title">Friends</h1>
-      <div class="friends-header__icons">
-        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-        <i class="fa-solid fa-music fa-lg"></i>
-        <i class="fa-solid fa-gear fa-lg"></i>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <i class="fa-solid fa-music fa-xl"></i>
+        <i class="fa-solid fa-gear fa-xl"></i>
       </div>
     </header>
+
+    <a id="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i>
+      <h5>Friend's Names Display</h5>
+      <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+
+    <!--/friends screen/user component/-->
+    <main class="friends-user-component">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img\me.jpg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h2>Kim Mary</h2>
+            <!--<h5></h5>-->
+          </div>
+        </div>
+        <div class="user-component__column">
+          <!--<span></span>
+            <span class="user-component__icon"></span>-->
+        </div>
+      </div>
+
+      <!--/friends screen/channel/-->
+      <div class="channel-header">
+        <span>Channel</span>
+        <span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </span>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img\me.jpg"
+            class="user-component__avatar user-component__avatar--sm"
+          />
+          <div class="user-component__text">
+            <h2>Channel</h2>
+            <!--<h5></h5>-->
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>2</span>
+          <span class="user-component__icon">
+            <i class="fa-solid fa-chevron-right"></i>
+          </span>
+        </div>
+      </div>
+    </main>
 
     <!--navigation bar-->
     <nav class="nav">

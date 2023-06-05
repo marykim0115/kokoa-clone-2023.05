@@ -4,19 +4,13 @@
 /* components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 /* screen */
 @import "screen/login.css";
+@import "screen/friends.css";
 body{
     font-family: 'Open Sans', sans-serif;
+    color:#2e363e;
 }
 
-.friends-header{
-    display: flex;
-    justify-content: space-between;
-    font-weight: 600;
-}
-.friends-header__icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

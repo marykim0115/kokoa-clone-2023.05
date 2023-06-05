@@ -5,6 +5,7 @@
     top:0px;
     justify-content: center;
     padding: 8px 5px;
+    box-sizing: border-box;
 }
 .status-bar__column{
     width: 33%;
